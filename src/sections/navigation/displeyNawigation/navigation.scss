@@ -1,0 +1,96 @@
+.nav{
+    display: flex;
+    justify-content: right;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+
+.button-nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1vh 10px;
+    border-radius: 50%;
+    height: 8vh;
+    width: 8vh;
+    background-color: whitesmoke;
+    transition: 0.5s;
+    .menu-burger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        border-radius: 50%;
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+    }
+}
+.links-wrapper{
+    display: flex;
+    align-self: center;
+    margin-top: 10vh;
+    opacity: 0;
+    height: 80%;
+    width: 95%;
+    z-index: -2;
+}
+.button-nav.active{
+    opacity: 1;
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    height: 100vh;
+    width: 50vw;
+    .menu-burger{
+        top:1vh;
+        right: 10px;
+        width: 8vh;
+        height: 8vh;
+        background-color: #fff;
+    }
+    .links-wrapper.active{
+        opacity: 1;
+        z-index: 1;
+    }
+}
+
+// wrapper dla burgera 
+.bar-wrapper{
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 70%;
+    .bar{
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        transition: 1s;
+        &.one{
+            top:calc(25% - 2px);
+            &.active{
+                top:calc(50% - 2px);
+                transform: rotate(45deg);
+            }
+        }
+        &.two{
+            top:calc(50% - 2px);
+            opacity: 1;
+            &.active{
+                top:calc(50% - 2px);
+                opacity: 0;
+            }
+        }
+        &.three{
+            top:calc(75% - 2px);
+            &.active{
+                top:calc(50% - 2px);
+                transform: rotate(135deg);
+            }
+        }
+    }
+}
+
