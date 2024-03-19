@@ -1,0 +1,8 @@
+{
+    "slides":[
+        {"id":1, "url":"/photos/slides/slide1.jpg"},
+        {"id":2, "url":"/photos/slides/slide2.jpg"},
+        {"id":3, "url":"/photos/slides/slide3.jpg"},
+        {"id":4, "url":"/photos/slides/slide1.jpg"}
+    ]
+}
