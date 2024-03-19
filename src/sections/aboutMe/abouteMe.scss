@@ -1,6 +1,24 @@
-.me{
-    height: 100vh;
+.about-me-wrapper{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    margin-top: 100vh;
-    background-color: black;
+}
+.photo-me{
+    background-image: url('/photos/me/Projekt-bez-nazwy-300x300.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2vh auto;
+    width: 80%;
+    height: 50vh;
+}
+.about-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    p{  
+        width: 80%;
+        text-align: justify;
+        margin-top: 10px;
+    }
 }
