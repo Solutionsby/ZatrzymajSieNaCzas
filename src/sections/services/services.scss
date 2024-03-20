@@ -1,0 +1,48 @@
+@import '../../assets/static.scss';
+.services-wrapper{
+    display: flex;
+    padding-top:calc($height-navigation + 1vh);
+    gap:20px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2vh;
+    text-transform: uppercase;
+    color: white;
+    width: 80%;
+    height: 25vh;
+    border-radius: 15px;
+    background-color:$primary-color;
+    transition: 1s;
+    .services-turned{
+        display: flex;
+        opacity: 0;
+        transition: 2s;
+    }
+
+    &.turned{
+        transform: rotateY(180deg);
+        .services-turned.active{
+            opacity: 1;
+            width: 90%;
+            flex-direction: column;
+            align-self: self-start;
+            transform: rotateY(180deg);
+            p{
+                margin-top: 2px;
+                &:nth-last-of-type(1){
+                    margin-top: 40px;
+                    font-size: 15px;
+                }
+            }
+            
+        }
+    }
+    
+}

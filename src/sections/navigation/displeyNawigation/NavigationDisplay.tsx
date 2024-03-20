@@ -1,19 +1,20 @@
 import './navigation.scss'
 import { useState, useContext  } from 'react';
 import { ScrollContext } from '../../../ScrollProvider';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMobileScreen, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Contact } from '../../../contact/Contact';
 
 
 interface NavigationDisplayProps {
     abouteMe: React.RefObject<HTMLDivElement>;
+    servicesID:React.RefObject<HTMLDivElement>;
+    groupID:React.RefObject<HTMLDivElement>;
 
   }
 
 
 
 export const NavigationDisplay: React.FC<NavigationDisplayProps> =({
-    abouteMe,
+    abouteMe,servicesID,groupID
   })=>{
     const [isToggled, setIsToggled] = useState(false);
     const scrollToSection = useContext(ScrollContext);
@@ -43,14 +44,11 @@ export const NavigationDisplay: React.FC<NavigationDisplayProps> =({
                 <div className={`links-wrapper ${isToggled ? 'active' : ''}`}>
                     <ul>
                         <li className='link' onClick={() => handleScrollToSection(abouteMe)}>O Mnie</li>
-                        <li className='link'>Usługi</li>
-                        <li className='link'>FAQ</li>
+                        <li className='link'  onClick={() => handleScrollToSection(servicesID)} >Usługi</li>
+                        <li className='link' onClick={() => handleScrollToSection(groupID)} >Grupa wsparcia</li>
                         <li>
                             <div className="contact-wrapper">
-                                <a href="tel:+"><FontAwesomeIcon icon={faMobileScreen} />510-608-389</a>
-                                <a href="mailto:"><FontAwesomeIcon icon={faEnvelope} />gocek89@gmail.com</a>
-                            
-
+                            <Contact isAdress={false}/>
                             </div>
                         </li>
                     </ul>
