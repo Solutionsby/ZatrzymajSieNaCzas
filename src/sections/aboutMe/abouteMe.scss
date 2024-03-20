@@ -1,5 +1,8 @@
+@import '../../assets/static.scss';
+
 .about-me-wrapper{
     display: flex;
+    padding-top:calc($height-navigation + 1vh);
     flex-direction: column;
     width: 100%;
 }

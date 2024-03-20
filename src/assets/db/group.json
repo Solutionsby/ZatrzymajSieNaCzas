@@ -1,0 +1,8 @@
+{   "groupSection":{
+    "groupTitle":"Grupy wsparcia Online",
+    "groupContent":"Razem z moim kolegą, również terapeutą uzależnień Wojciechem Wojtczykiem  (adres strony Wojtka), prowadzimy Terapeutyczne Grupy Wsparcia On-line. Przeznaczone  dla:",
+    "groupList":[
+        {"id":1, "listText":"Osób uzależnionych będących  na początku swojej drogi – grupa motywacyjna"},
+        {"id":2, "listText":"Osób po swoich doświadczeniach z terapią – grupa nawrotowa"},
+        {"id":3, "listText":"Osób współuzależnionych"}
+    ]}}
