@@ -134,6 +134,55 @@ img {
     }
 }
 
+@media screen and (orientation:landscape) {
+    .nav{
+        display: flex;
+        position: fixed;
+        top:0;
+        justify-content: space-between;
+        height: $height-navigation;
+        width: 100%;
+        background-color:$secendory-color;
+        border-bottom: 1px solid $primary-color;
+        z-index: 2;
+    }
+    img {
+        margin: 1vh 20px;
+        height: 8vh;
+    }
+    .navigation-landscape{
+        display: flex;
+        width: 70%;
+    }
+    .landscape-list{
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 80%;
+        li{
+            position: relative;
+            color: #333;
+            font-size: 24px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+            &::after{
+                content: '';
+                position: absolute;
+                bottom: -5px;
+                left: 50%;
+                width: 0;
+                height: 2px;
+                background-color:$primary-color;
+                transition: width 0.3s ease, left 0.3s ease;
+            }
+            &:hover::after{
+                width: calc(100% - 4px); 
+                left: 2px; 
+            }
+        }
 
+    }
+    
+}
 
 

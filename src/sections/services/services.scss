@@ -46,3 +46,35 @@
     }
     
 }
+
+@media screen and (orientation:landscape) {
+    .services-wrapper{
+        justify-content: center;
+        flex-direction: row;
+    }
+    .service{
+        width: 45%;
+        height: 35vh;
+        .services-turned{
+            opacity: 0;
+        }
+        &.turned{
+            transform: rotateY(180deg);
+            .services-turned.active{
+                width: 90%;
+                align-self:center;
+                transform: rotateY(180deg);
+                p{
+                    margin-top: 10px;
+                    font-size: 18px;
+                    &:nth-last-of-type(1){
+                        margin-top: 40px;
+                        font-size: 18px;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}

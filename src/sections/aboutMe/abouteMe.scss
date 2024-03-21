@@ -25,3 +25,19 @@
         margin-top: 10px;
     }
 }
+
+
+@media screen and (orientation:landscape) {
+
+    .about-me-wrapper{
+    flex-direction: row;
+    width: 100%;
+}
+.photo-me{
+    width: 50%;
+    height: 50vh;
+}
+.about-text-wrapper{
+    margin:5px;
+}
+}

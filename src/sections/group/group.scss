@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding-top:calc($height-navigation + 1vh);
+    gap:2vh;
     margin: 0 auto 5vh auto;
     width: 80%;
 }
@@ -32,5 +33,23 @@ ul{
         background-color: $primary-color;
         color: white;
 
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .grup-wrapper{
+        margin: 0 auto 5vh auto;
+        width: 80%;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin: 2vh 0 ;
+        gap: 2vh;  
+    }
+    .link-to-group{
+        width: 50%;
+        font-size: 25px;
+        
     }
 }
