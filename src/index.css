@@ -8,8 +8,9 @@ body{
 ul{
     list-style-type: none;
 }
-a{
+a,li{
     text-decoration: none;
+    cursor: pointer;
 }
 a:visited{
     color:white

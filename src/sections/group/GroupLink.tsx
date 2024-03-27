@@ -16,7 +16,7 @@ export const GroupLink:React.FC<GroupProps> = ({groupID}) =>{
                 <li key={id}>{id}.{listText}</li>
             ))}
             </ul>
-            <a href="http://" className='link-to-group'>Dowiedz sie wiecej</a>
+            {/* <a href="http://" className='link-to-group'>Dowiedz sie wiecej</a> */}
             
         </div>
     )

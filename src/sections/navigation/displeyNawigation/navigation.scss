@@ -83,13 +83,16 @@ img {
 }
 .contact-wrapper{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 15vh;
     flex-direction: column;
    a{
     color: white;
     font-size: 16px;
-    margin: 10px 0;
+    margin: 10px;
+    text-align: center;
     svg{
+        font-size: 20px;
         margin-right: 10px;
     }
    }
@@ -134,7 +137,7 @@ img {
     }
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (min-width:769px) {
     .nav{
         display: flex;
         position: fixed;

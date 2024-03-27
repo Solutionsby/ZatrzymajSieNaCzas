@@ -1,8 +1,8 @@
 {   "groupSection":{
     "groupTitle":"Grupy wsparcia Online",
-    "groupContent":"Razem z moim kolegą, również terapeutą uzależnień Wojciechem Wojtczykiem  (adres strony Wojtka), prowadzimy Terapeutyczne Grupy Wsparcia On-line. Przeznaczone  dla:",
+    "groupContent":"Razem z moim kolegą, również terapeutą uzależnień Wojciechem Wojtczykiem, prowadzimy Terapeutyczne Grupy Wsparcia Online. Koszt uczestnictwa w grupie wynosi 500 zł miesiecznie, a działamy w celu dostarczenia wsparcia i pomocy:",
     "groupList":[
-        {"id":1, "listText":"Osób uzależnionych będących  na początku swojej drogi – grupa motywacyjna"},
-        {"id":2, "listText":"Osób po swoich doświadczeniach z terapią – grupa nawrotowa"},
-        {"id":3, "listText":"Osób współuzależnionych"}
+        {"id":1, "listText":"Osobom uzależnionym będącym  na początku swojej drogi – grupa motywacyjna"},
+        {"id":2, "listText":"Osobom po swoich doświadczeniach z terapią – grupa intensywna"},
+        {"id":3, "listText":"Osobom współuzależnionym"}
     ]}}

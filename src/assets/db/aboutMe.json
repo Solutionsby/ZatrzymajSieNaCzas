@@ -1,10 +1,26 @@
 {
     "paragrafs":[
-        {"id":0, "paragraf":"Nazywam się Agnieszka Pykosz i jestem terapeutą uzależnień. Ukończyłam Studium Terapii Uzależnień i Współuzależnienia w Instytucie Psychologii Zdrowia Polskiego Towarzystwa Psychologicznego w Warszawie. Pracowałam w prywatnym Ośrodku Uzależnień ROKA oraz w prywatnym Ośrodku Uzależnień  filii - EMPATIA Pomorze. Pracuję z osobami uzależnionymi i współuzależnionymi w programie: „Zatrzymaj się na czas!” "},
-        {"id":1, "paragraf":"W ostatnich 5 latach w ramach wolontariatu pomagałam ludziom na oddziale detoksykacyjnym w Wojewódzkim Szpitalu Psychiatrycznym  im. prof. Tadeusza Bilikiewicza w Gdańsku. Odwiedzałam i dzieliłam się doświadczeniem w prywatnych ośrodkach In Puris oraz MyWay."},
-        {"id":2, "paragraf":"Pracuje w nurcie integracyjnym, co oznacza, że w swojej pracy wykorzystuje dorobek ( efekty ) różnych nurtów terapeutycznych i dzięki temu, nie ograniczam się do jednej szkoły czy też koncepcji ( działania, nastawienia, ideii ? ) to właśnie pozwala mi na indywidualne podejście do pacjenta i jego problemów (trudności ? ).Jestem doświadczonym praktykiem "},
-        {"id":3, "paragraf":"Nie znam problemu uzależnień, tylko ze szkoły i literatury. Oprócz zdobytej wiedzy teoretycznej licznych treningów warsztatów szkoleń-  sama, uczestniczyłam w terapii indywidualnej oraz psychoterapii grupowej. W pracy z pacjentami jest to niezwykle ważne przy ciągle poszerzającej się wiedzy na temat uzależnień i współuzależnienia."},
-        {"id":4, "paragraf":"Obecnie jestem w trakcie kończenia dodatkowego poziomu, który nazywa się certyfikacją. To skutkuje, tym, że moja praca jest poddawana stałej superwizji. Taka wymiana doświadczeń jest wyjątkowo pomocna w pracy terapeutycznej. Superwizja pozwala mi i mojej pracy z pacjentem na dodatkowy obiektywny, profesjonalny ogląd danej sytuacji. Moje własne doświadczenia życiowe pomogły mi w lepszym zrozumieniu  uzależnienia i współuzależnienia"}
+        {"id":0, 
+        "boldText":"",
+        "paragraf":"Nazywam się Agnieszka Pykosz i jestem terapeutą uzależnień. Ukończyłam Studium Terapii Uzależnień i Współuzależnienia w Instytucie Psychologii Zdrowia Polskiego Towarzystwa Psychologicznego w Warszawie. Pracowałam w prywatnym Ośrodku Uzależnień ROKA oraz w prywatnym Ośrodku Uzależnień  filii - EMPATIA Pomorze. Pracuję z osobami uzależnionymi i współuzależnionymi w programie: „Zatrzymaj się na czas!” "},
+        {"id":1,
+        "boldText":"",
+        "paragraf":"W ostatnich 5 latach w ramach wolontariatu pomagałam ludziom na oddziale detoksykacyjnym w Wojewódzkim Szpitalu Psychiatrycznym  im. prof. Tadeusza Bilikiewicza w Gdańsku. Odwiedzałam i dzieliłam się doświadczeniem w prywatnych ośrodkach In Puris oraz MyWay."},
+        {"id":2,
+        "boldText":"", 
+        "paragraf":"Pracuje w nurcie integracyjnym, co oznacza, że w swojej pracy wykorzystuje dorobek ( efekty ) różnych nurtów terapeutycznych i dzięki temu, nie ograniczam się do jednej szkoły czy też koncepcji to właśnie pozwala mi na indywidualne podejście do pacjenta i jego problemów ."},
+        {"id":3,
+        "boldText":"Jestem doświadczonym praktykiem! ",
+         "paragraf":"Nie znam problemu uzależnień, tylko ze szkoły i literatury. Oprócz zdobytej wiedzy teoretycznej licznych treningów warsztatów szkoleń-  sama, uczestniczyłam w terapii indywidualnej oraz psychoterapii grupowej. W pracy z pacjentami jest to niezwykle ważne przy ciągle poszerzającej się wiedzy na temat uzależnień i współuzależnienia."},
+        {"id":4,
+        "boldText":"",
+        "paragraf":"Obecnie jestem w trakcie kończenia dodatkowego poziomu, który nazywa się certyfikacją. To skutkuje, tym, że moja praca jest poddawana stałej superwizji. Taka wymiana doświadczeń jest wyjątkowo pomocna w pracy terapeutycznej. Superwizja pozwala mi i mojej pracy z pacjentem na dodatkowy obiektywny, profesjonalny ogląd danej sytuacji. Moje własne doświadczenia życiowe pomogły mi w lepszym zrozumieniu  uzależnienia i współuzależnienia. Dodatkowo, obecnie prowadzę własny gabinet, co daje mi możliwość jeszcze większego zaangażowania w pracę z klientami i rozwijania się jako terapeuta."}
 
+    ],
+    "training":[
+        {"id":1, "context":"jak przeprowadzić interwencję kryzysową"},
+        {"id":2, "context":"jak pracować z bliskimi osób uzależnionych ( tzw osób współuzależnionych)"},
+        {"id":3, "context":"nowe trendy i sposoby pracy z osobami uzależnionymi"},
+        {"id":4, "context":"jak skutecznie pracować z pacjentem z zaburzeniami lękowymi wykorzystując techniki CBT."}
     ]
 }
