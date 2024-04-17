@@ -1,8 +1,12 @@
 {   "groupSection":{
     "groupTitle":"Grupy wsparcia Online",
+    "eterpiTitle":"Terapeutyczne Grupy Wsparcia On-line",
     "groupContent":"Razem z moim kolegą, również terapeutą uzależnień Wojciechem Wojtczykiem, prowadzimy Terapeutyczne Grupy Wsparcia Online. Koszt uczestnictwa w grupie wynosi 500 zł miesiecznie, a działamy w celu dostarczenia wsparcia i pomocy:",
     "groupList":[
         {"id":1, "listText":"Osobom uzależnionym będącym  na początku swojej drogi – grupa motywacyjna"},
         {"id":2, "listText":"Osobom po swoich doświadczeniach z terapią – grupa intensywna"},
         {"id":3, "listText":"Osobom współuzależnionym"}
-    ]}}
+    ]
+ 
+}
+}

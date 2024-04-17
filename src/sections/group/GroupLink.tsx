@@ -16,8 +16,14 @@ export const GroupLink:React.FC<GroupProps> = ({groupID}) =>{
                 <li key={id}>{id}.{listText}</li>
             ))}
             </ul>
-            {/* <a href="http://" className='link-to-group'>Dowiedz sie wiecej</a> */}
+            
+            <div className="eterapiButton">
+                <a className='eterapia-link'href="http://twoja-eterapia.pl">{groupSection.eterpiTitle}</a>
+                </div>       
             
         </div>
     )
 }
+
+
+
