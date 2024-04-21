@@ -33,6 +33,8 @@ const handleWindowChangeSize= () =>{
   const handleScrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
     if (scrollToSection && ref.current) {
       scrollToSection(ref);
+      handleToggle();
+      
     }
   };
   const handleScrollToTop = () => {
