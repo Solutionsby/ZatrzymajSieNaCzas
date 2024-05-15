@@ -7,34 +7,45 @@ interface ServicesProps{
 }
 
 export const Services:React.FC<ServicesProps> =({servicesID})=>{
-    const [selectedService, setSelectedService] = useState< number | null>(null);
+    // const [selectedService, setSelectedService] = useState< number | null>(null);
 
-    const handleSeviceClick = (id:number) =>{
-        if(selectedService === id){
-            setSelectedService(null)
-        }
-        else{
-            setSelectedService(id);
-        }
+
+    const [servicesState , setServicesState] = useState<object>({
+        servicesOne: false,
+        servicesTwo:false
+    });
+
+    const toggleServices = (servicesName:keyof typeof servicesState)=>
+        setServicesState(prevState =>({
+            ...prevState,
+            [servicesName]: !prevState[servicesName]
+        }))
+
+    // const handleSeviceClick = (id:number) =>{
+    //     if(selectedService === id){
+    //         setSelectedService(null)
+    //     }
+    //     else{
+    //         setSelectedService(id);
+    //     }
         
-    }
+    // }
     return(
         <div className="services-wrapper" ref={servicesID}>
-            {services.map(({id,title,price,content}:{id:number, title:string, price:number, content:string})=>(
-                <div key={id} className={`service ${selectedService === id ? "turned": ""}`} onClick={()=>handleSeviceClick(id)}>
-                    {   
-                        selectedService !=id && 
-                        <>
-                        <h2>{title}</h2>
-                        <div className='services-turned'></div>
-                        </>
-                    }
-                    {selectedService === id && <div className='services-turned active'>
-                        <h2>{title}</h2>
-                        <p>(50min) {price} zł</p>
-                        <p>{content}</p>
-
-                        </div>}
+            {services.map(({id,title,price,content, serviceName}:{id:number, title:string, price:number, content:string,serviceName:string})=>(
+                <div key={id} className={`service ${servicesState[serviceName] ? "turned": ""}`} onClick={()=>toggleServices(serviceName)}>
+            {servicesState[serviceName] ?
+            <div className='services-turned active'>
+              <h2>{title}</h2>
+              <p>(50min) {price} zł</p>
+              <p>{content}</p>
+            </div>
+            :
+            <>
+              <h2>{title}</h2>
+              <div className='services-turned'></div>
+            </>
+          }
                 </div>
             ))}
         </div>
