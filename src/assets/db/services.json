@@ -1,6 +1,6 @@
 {
     "services":[
-        {"id":0, "title":"Konsultacje indywidualne", "price":200, "content":"Usługa może odbywać się stacjonarnie lub online"},
-        {"id":1, "title":"Terapia indywidualna ", "price": 180,"content":"Usługa może odbywać się stacjonarnie lub online"}
+        {"id":0, "serviceName":"servicesOne", "title":"Konsultacje indywidualne", "price":200, "content":"Usługa może odbywać się stacjonarnie lub online"},
+        {"id":1, "serviceName":"servicesTwo", "title":"Terapia indywidualna ", "price": 180,"content":"Usługa może odbywać się stacjonarnie lub online"}
     ]
 }
