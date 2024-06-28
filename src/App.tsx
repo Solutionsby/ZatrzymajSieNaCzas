@@ -54,7 +54,6 @@ function App() {
       <Header />
       <AboutMe abouteMe={abouteMe} />
       <Services servicesID={servicesID}/>
-      <GroupLink groupID={groupID}/>
       <Footer />
       </div>
 
